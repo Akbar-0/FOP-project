@@ -13,16 +13,16 @@ To create a compile.bat file on Windows, you can follow four small steps:
 
 
 @echo off
+#
+      gcc MyOS.c -o MyOS -lwinmm
 
-gcc MyOS.c -o MyOS -lwinmm
-
-IF NOT %ERRORLEVEL%==0 (
-    echo Compilation failed!
-) ELSE (
-    echo Compilation successful!
-)
-pause
-.\MyOS.exe
+      IF NOT %ERRORLEVEL%==0 (
+          echo Compilation failed!
+      ) ELSE (
+          echo Compilation successful!
+      )
+      pause
+      .\MyOS.exe
 
 
 
