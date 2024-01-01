@@ -13,7 +13,7 @@ To create a compile.bat file on Windows, you can follow four small steps:
 
 #
       @echo off
-      gcc MyOS.c -o MyOS -lwinmm
+      gcc myOS.c -o myOS -lwinmm
 
       IF NOT %ERRORLEVEL%==0 (
           echo Compilation failed!
@@ -21,13 +21,13 @@ To create a compile.bat file on Windows, you can follow four small steps:
           echo Compilation successful!
       )
       pause
-      .\MyOS.exe
+      .\myOS.exe
 
 
 
 3. Save the file with the name compile.bat. Make sure to select "All Files" as the file type and ensure that the file extension is .bat.
 
-4. Move the compile.bat file to the same directory as your source code file (MyOS.c).
+4. Move the compile.bat file to the same directory as your source code file (myOS.c).
 
 
 # Done?
