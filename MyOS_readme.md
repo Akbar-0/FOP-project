@@ -11,9 +11,8 @@ To create a compile.bat file on Windows, you can follow four small steps:
 2. Copy and paste the following lines into the text editor:
 
 
-
-@echo off
 #
+      @echo off
       gcc MyOS.c -o MyOS -lwinmm
 
       IF NOT %ERRORLEVEL%==0 (
