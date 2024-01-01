@@ -1,3 +1,4 @@
+// This version is compatible for Windows, Linux and Mac also
 #include <time.h>    //for dealing with time variables
 #include <stdio.h>   //standard input and output
 #include <stdlib.h>  //for the system() functions
