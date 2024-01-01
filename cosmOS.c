@@ -34,7 +34,7 @@ void guessTheNumber(void);       // Runs Guess The Number
 void ticTacToe();                // Runs Tic Tac Toe
 void hangman(void);              // Runs Hangman
 
-// Main Function
+// Main function
 int main() {
 	int choice, wrong_password = 0;
 
