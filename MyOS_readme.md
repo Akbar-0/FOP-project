@@ -1,5 +1,6 @@
 # Want to run this code?
-	Create a windows batch file then. Namely compile.bat.
+
+   Create a windows batch file then. Namely compile.bat.
 
 "A Windows batch file is a script file containing a series of commands that are executed in sequence by the Windows command line interpreter".
 
@@ -31,7 +32,7 @@ pause
 
 
 # Done?
-	Now you can run the compile.bat file by double-clicking on it or executing it from the command prompt. It will compile the program using the gcc compiler and display a message indicating whether the compilation was successful or failed.
+   Now you can run the compile.bat file by double-clicking on it or executing it from the command prompt. It will compile the program using the gcc compiler and display a message indicating whether the compilation was successful or failed.
 
 # NOTE:
-	Make sure you have the GCC compiler installed on your system and set up properly before running the compile.bat file.
+   Make sure you have the GCC compiler installed on your system and set up properly before running the compile.bat file.
