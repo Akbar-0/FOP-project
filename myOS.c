@@ -1,3 +1,4 @@
+// This is a windows compatible version only
 #include <time.h>
 #include <stdio.h>
 #include <stdlib.h>
