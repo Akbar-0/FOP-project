@@ -1,4 +1,6 @@
 // This version is compatible for Windows, Linux and Mac also
+// User Name: ESproject
+// Password: CEP2023
 #include <time.h>    //for dealing with time variables
 #include <stdio.h>   //standard input and output
 #include <stdlib.h>  //for the system() functions
@@ -351,8 +353,8 @@ int loginUser(int wrng_pwrd) {
 		}
 
 		// Already saved user name and password for demonstration purposes
-		const char *validUsername = "abcd";
-		const char *validPassword = "123";
+		const char *validUsername = "ESproject";
+		const char *validPassword = "CEP2023";
 
 		// Compare the entered user name and password with the valid credentials
 		// Return 1 if login successful, 0 otherwise
