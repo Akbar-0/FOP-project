@@ -6,6 +6,7 @@
 #include <string.h>  //for string handling
 #include <stdbool.h> //to handle boolean values
 
+// Conditional Preprocessing Commands
 #ifdef _WIN32
 #define CLEAR_COMMAND "cls"
 #define LIST_COMMAND "dir /b"
